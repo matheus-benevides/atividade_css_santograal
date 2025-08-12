@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 h2{
     text-decoration: underline;
     text-align: center;
@@ -19,13 +22,14 @@ p{
     height: 750px;
 }
 .caixafilho{
+    flex: 1;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 .roxo{
     background-color: #483D8B;
-    width: 150%;
+    flex: 2;
 }
 .azul{
     background-color: #1E90FF;
